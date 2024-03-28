@@ -1,11 +1,8 @@
 [
   {
-    "name": "theme_info",
-    "theme_name": "Dawn",
-    "theme_version": "13.0.1",
-    "theme_author": "Shopify",
-    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
-    "theme_support_url": "https://support.shopify.com/"
+    "name": "Fodivo",
+    "theme_name": "Fodivo",
+    "theme_version": "1.0.0"
   },
   {
     "name": "t:settings_schema.logo.name",
