@@ -1,0 +1,171 @@
+<section>
+    <div class="home-top-container">
+        <div class="home-top-content">
+            <h1 class="home-top-title">
+                {{ section.settings.top-title }};
+            </h1>
+            <div class="home-top-link">
+                <a class="home-top-link" href ="{{ section.settings.home-top-link }}">
+            {{ section.settings.top-descritption }}
+            </a>
+            </div>
+        </div>
+        <div class="home-top-row row">
+            <div class="home-top-quiz-col col">
+                <div class="home-top-quiz-cont">
+                    <a  class="home-top-quiz-col-button" href="/pages/quiz">
+                        Take Our Quiz
+                    </a>
+                    <div class="home-top-quiz-img">
+                    <img src="{{ section.settings.quiz-bkg | img_url : 'master' }}" alt="Quiz Image" />
+                    <p class="home-top-quiz-text">{{ section.settings.home-top-quiz-descritption }}</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="home-top-middle-col col">
+                <div class="home-top-middle-col-cont">
+                    <a class="btn home-top-middle-btn" href="/pages/about">About Fodivo</a>
+                    <h3 class="home-top-middle-title">{{ section.settings.home-top-middle-descritption }}</h3>
+                    <img class="home-top-middle-img" src="{{ section.settings.home-top-middle-image | img_url : 'master' }}" />
+                    <div class="home-top-middle-icons">
+                    <ul class="home-top-middle-iconslists">
+                        {% for block in section.blocks %}
+                        <li class="home-top-middle-icon"></li>
+                        {% endfor %}
+                    </ul>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="home-top-collection-col col">
+                <div class="home-top-collection-cont">
+                    <a class="home-top-collection-btn btn" href="/collections"></a>
+                    <div class="home-top-collections">
+                        <ul class="home-top-collections-list">
+                            <li class="home-top-collection-single">
+                                <a href="{{ section.settings.right-col-collection1.url }}">
+                                    {{ section.settings.right-col-collection1.title }}
+                                </a>
+                            </li>
+                            <li class="home-top-collection-single">
+                                <a href="{{ section.settings.right-col-collection2.url }}">
+                                    {{ section.settings.right-col-collection2.title }}
+                                </a>
+                            </li>
+                            <li class="home-top-collection-single">
+                                <a href="{{ section.settings.right-col-collection3.url }}">
+                                    {{ section.settings.right-col-collection3.title }}
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+{% schema %}
+{
+    "name":"Home Top",
+    "class": "section home-top",
+    "max_blocks": 6,
+    "settings": [
+        {
+            "id":"top-title",
+            "type":"text",
+            "label":"Title",
+            "default": "Your Title Goes Here"
+        },
+        {
+            "id":"top-descritption",
+            "type":"richtext",
+            "label":"Link Title",
+            "default": "<p>Your link title Goes Here</p>"
+        },
+        {
+            "id" :"home-top-link",
+            "type": "url",
+            "label":"Link Url"
+        },
+        {
+            "type": "header",
+            "info": "Quiz Section"
+        },
+        {
+            "id": "quiz-bkg",            
+            "type": "image_picker",
+            "label": "Quiz Image"
+        },
+        {
+            "id":"home-top-quiz-descritption",
+            "type":"richtext",
+            "label":"Quiz Text",
+            "default": "<p>Your text Goes Here</p>"
+        },
+        {
+            "type": "header",
+            "info": "Middle Section Settings"
+        },
+        {
+            "id": "home-top-middle-image",            
+            "type": "image_picker",
+            "label": "Banner"
+        },
+        {
+            "id":"home-top-middle-descritption",
+            "type":"richtext",
+            "label":"Text",
+            "default": "<p>Your text Goes Here</p>"
+        },
+        {
+            "id": "home-top-middle-icons",
+            "type": "checkbox",
+            "label":"Show Icons",
+            "default": false
+        },
+        {
+            "type": "header",
+            "info": "Collections"
+        },
+        {
+            "id" : "right-col-collection1",
+            "type":"collection",
+            "label" : "Collection 1"
+        },
+        {
+            "id" : "right-col-collection2",
+            "type":"collection",
+            "label" : "Collection 2"
+        },
+        {
+            "id" : "right-col-collection3",
+            "type":"collection",
+            "label" : "Collection 3"
+        }     
+    ],
+    "blocks":[
+        {
+            "name" :" middleicon",
+            "type":"middleicon",
+            "settings":[
+                {
+                    "id": "middleicon",
+                    "type":"image_picker",
+                    "label":"Icon"
+                }
+            ]
+        }
+    
+    ],
+    "presets":[
+        {
+            "name":"Home Top Section"
+        }
+    ]
+}
+
+{% endschema %}
