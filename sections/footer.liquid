@@ -27,7 +27,7 @@
   }
 {%- endstyle -%}
 
-<footer class="footer section-{{ section.id }}-padding">
+<footer class="{% if section.settings.fodivostyled == true %}fadivo-footer{% endif %} footer section-{{ section.id }}-padding">
   <div class="color-{{ section.settings.color_scheme }} gradient page-width">
   {%- liquid
     assign has_social_icons = true
@@ -482,6 +482,12 @@
     }
   ],
   "settings": [
+    {
+      "id" : "fodivostyled",
+      "type":"checkbox",
+      "label":"Fodivo Styled",
+      "default": false
+    },
     {
       "type": "color_scheme",
       "id": "color_scheme",
