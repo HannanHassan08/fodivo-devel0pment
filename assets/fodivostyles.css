@@ -89,6 +89,7 @@
   padding: 7px 20px;
   width: calc(40% + 40px);
   border-radius: 50px;
+  margin-top:200px;
 }
 .home-top .home-top-middle-iconslists {
   display: flex;
