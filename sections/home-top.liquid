@@ -1,3 +1,7 @@
+<style>
+  
+</style>
+
 <section>
     <div class="home-top-container page-width">
         <div class="home-top-content">
@@ -5,7 +9,7 @@
                 {{ section.settings.top-title }}
             </h1>
             <div class="home-top-link">
-                <a class="home-top-link" href ="{{ section.settings.home-top-link }}">
+                <a class="home-top-link fodivo-btn" href ="{{ section.settings.home-top-link }}">
             {{ section.settings.top-descritption }}
             </a>
             </div>
@@ -13,19 +17,21 @@
         <div class="home-top-row row">
             <div class="home-top-quiz-col col">
                 <div class="home-top-quiz-cont">
-                    <a  class="home-top-quiz-col-button" href="/pages/quiz">
+                    <a  class="home-top-quiz-col-button fodivo-btn" href="/pages/quiz">
                         Take Our Quiz
                     </a>
                     <div class="home-top-quiz-img">
                     <img src="{{ section.settings.quiz-bkg | img_url : 'master' }}" alt="Quiz Image" />
-                    <p class="home-top-quiz-text">{{ section.settings.home-top-quiz-descritption }}</p>
+                    <div class="home-top-quiz-text">
+                      {{ section.settings.home-top-quiz-descritption }}
+                    </div>
                 </div>
                 </div>
             </div>
 
             <div class="home-top-middle-col col">
                 <div class="home-top-middle-col-cont">
-                    <a class="btn home-top-middle-btn" href="/pages/about">About Fodivo</a>
+                    <a class="fodivo-btn home-top-middle-btn" href="/pages/about">About Fodivo</a>
                     <h3 class="home-top-middle-title">{{ section.settings.home-top-middle-descritption }}</h3>
                     <img class="home-top-middle-img" src="{{ section.settings.home-top-middle-image | img_url : 'master' }}" />
                     <div class="home-top-middle-icons">
@@ -42,22 +48,25 @@
             </div>
             <div class="home-top-collection-col col">
                 <div class="home-top-collection-cont">
-                    <a class="home-top-collection-btn btn" href="/collections"></a>
+                    <a class="fodivo-btn home-top-collection-btn" href="/collections">Our Collecion</a>
                     <div class="home-top-collections">
                         <ul class="home-top-collections-list">
                             <li class="home-top-collection-single">
                                 <a href="{{ section.settings.right-col-collection1.url }}">
                                     {{ section.settings.right-col-collection1.title }}
+                                  {{ section.settings.right-col-collection1.image }}
                                 </a>
                             </li>
                             <li class="home-top-collection-single">
                                 <a href="{{ section.settings.right-col-collection2.url }}">
                                     {{ section.settings.right-col-collection2.title }}
+                                  {{ section.settings.right-col-collection2.image }}
                                 </a>
                             </li>
                             <li class="home-top-collection-single">
                                 <a href="{{ section.settings.right-col-collection3.url }}">
                                     {{ section.settings.right-col-collection3.title }}
+                                  {{ section.settings.right-col-collection3.image }}
                                 </a>
                             </li>
                         </ul>
@@ -88,6 +97,11 @@
             "label":"Link Title",
             "default": "<p>Your link title Goes Here</p>"
         },
+        {
+            "id": "home-top-link-icon",            
+            "type": "image_picker",
+            "label": "Icon"
+        },      
         {
             "id" :"home-top-link",
             "type": "url",
