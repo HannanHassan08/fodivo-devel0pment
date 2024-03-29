@@ -1,5 +1,9 @@
 <style>
-  
+  #{{section.id}} .home-top-row .home-top-middle-col{
+    background-image: url({{ section.settings.home-top-middle-image | img_url : 'master' }});
+      background-size: contain;
+      background-position:bottom center;
+  }
 </style>
 
 <section>
