@@ -58,6 +58,7 @@
 .home-top .home-top-middle-btn,
 .home-top .home-top-collection-btn {
   font-size: 12px;
+  font-weight:bold;
   background: #fff;
   color: #000;
   border: 1px solid;
@@ -125,6 +126,7 @@
   text-decoration: none;
   display: flex;
   justify-content: space-between;
+  width: max-content;
 }
 
 .home-top .home-top-collection-single a {
@@ -133,10 +135,13 @@
   background: #fff;
   opacity: 0.4;
   position: absolute;
-  width: 200px;
+  /* width: 90%; */
   font-size: 20px;
+  transition: 0.2s;
 }
-
+.home-top .home-top-collection-single a:hover {
+    opacity: 1;
+}
 .home-top .home-top-collection-single:first-child a {
   left: 5%;
   rotate: 343deg;
@@ -144,13 +149,14 @@
   transform: translate(-10%);
 }
 .home-top .home-top-collection-single a img {
-  width: 27px;
-  height: 27px;
+  width: 35px;
+  height: 35px;
+  margin-left:10px;
 }
 
 .home-top .home-top-collections {
   position: relative;
-  min-height: 300px;
+  min-height: 200px;
   display: block;
 }
 
