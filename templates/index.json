@@ -15,11 +15,6 @@
             "middleicon": "shopify:\/\/shop_images\/2.png"
           }
         },
-        "middleicon_bRnpDi": {
-          "type": "middleicon",
-          "settings": {
-          }
-        },
         "middleicon_BjYiKK": {
           "type": "middleicon",
           "settings": {
@@ -36,7 +31,6 @@
       "block_order": [
         "middleicon_VTAQwK",
         "middleicon_GC9EPK",
-        "middleicon_bRnpDi",
         "middleicon_BjYiKK",
         "middleicon_4t9HBL"
       ],

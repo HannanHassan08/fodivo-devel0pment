@@ -31,7 +31,9 @@
                     <div class="home-top-middle-icons">
                     <ul class="home-top-middle-iconslists">
                         {% for block in section.blocks %}
+                          {% if block.settings.middleicon !=blank %}
                         <li class="home-top-middle-icon"><img src="{{ block.settings.middleicon | img_url: 'master'}}"  alt="icon"/></li>
+                            {% endif %}
                         {% endfor %}
                     </ul>
                     </div>
