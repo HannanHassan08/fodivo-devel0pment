@@ -1,8 +1,6 @@
 <style>
   #shopify-section-{{section.id}} .home-top-row .home-top-middle-col{
     background-image: url({{ section.settings.home-top-middle-image | img_url : 'master' }});
-      background-size: contain;
-      background-position:bottom center;
   }
 </style>
 {{section.id}}
@@ -57,20 +55,20 @@
                         <ul class="home-top-collections-list">
                             <li class="home-top-collection-single">
                                 <a href="{{ section.settings.right-col-collection1.url }}">
-                                    {{ section.settings.right-col-collection1.title }}
-                                  {{ section.settings.right-col-collection1.image }}
+                                    {{ settings.right-col-collection1.title }}
+                                  <img src="{{ settings.right-col-collection1.image | img_url : '20x20'}}">
                                 </a>
                             </li>
                             <li class="home-top-collection-single">
                                 <a href="{{ section.settings.right-col-collection2.url }}">
-                                    {{ section.settings.right-col-collection2.title }}
-                                  {{ section.settings.right-col-collection2.image }}
+                                    {{ section.right-col-collection2.title }}
+                                   <img src="{{ settings.right-col-collection1.image | img_url : '20x20'}}">
                                 </a>
                             </li>
                             <li class="home-top-collection-single">
                                 <a href="{{ section.settings.right-col-collection3.url }}">
-                                    {{ section.settings.right-col-collection3.title }}
-                                  {{ section.settings.right-col-collection3.image }}
+                                    {{ section.right-col-collection3.title }}
+                                   <img src="{{ settings.right-col-collection1.image | img_url : '20x20'}}">
                                 </a>
                             </li>
                         </ul>
