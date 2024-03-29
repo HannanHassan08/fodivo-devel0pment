@@ -74,7 +74,10 @@ h3.home-top-middle-title {
     border-radius: 50px;
     border: 1px solid;
     box-sizing: border-box;
-    padding: 20px 20px 0;
+    padding: 20px 20px;
+    background-size: contain;
+    background-position:bottom center;
+    background-repeat:no-repeat;
 }
 
 .home-top-quiz-col.col {
