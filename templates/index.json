@@ -36,7 +36,7 @@
       ],
       "settings": {
         "top-title": "Clear Skin Confidence Starts Here with Our Specialized Acne Removal Skincare Solutions!",
-        "top-descritption": "<p>Ready to Ditch the Blemishes? <br\/>Let’s Get Fodivo Fabulous!<\/p>",
+        "top-descritption": "<p>Ready to Ditch the Blemishes? <br\/><strong>Let’s Get Fodivo Fabulous!<\/strong><\/p>",
         "home-top-link": "shopify:\/\/pages\/quiz",
         "quiz-bkg": "shopify:\/\/shop_images\/Group_4675.png",
         "home-top-quiz-descritption": "<p>Answer a few questions, and unlock personalized skincare recommendations tailored just for you. <\/p>",
@@ -46,48 +46,6 @@
         "right-col-collection1": "frontpage",
         "right-col-collection2": "moisturizer",
         "right-col-collection3": "spot-removal"
-      }
-    },
-    "rich_text_b6wdit": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_E3WzTU": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text_8j3Bfr": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "button_qrCdjQ": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_E3WzTU",
-        "text_8j3Bfr",
-        "button_qrCdjQ"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "collection_list_DXFKzh": {
@@ -133,7 +91,6 @@
   },
   "order": [
     "home_top_aGkFn4",
-    "rich_text_b6wdit",
     "collection_list_DXFKzh"
   ]
 }
