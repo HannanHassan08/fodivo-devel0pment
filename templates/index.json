@@ -1,75 +1,61 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "home_top_aGkFn4": {
+      "type": "home-top",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "middleicon_VTAQwK": {
+          "type": "middleicon",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
+            "middleicon": "shopify:\/\/shop_images\/1.png"
           }
         },
-        "button": {
-          "type": "buttons",
+        "middleicon_GC9EPK": {
+          "type": "middleicon",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "middleicon": "shopify:\/\/shop_images\/2.png"
+          }
+        },
+        "middleicon_bRnpDi": {
+          "type": "middleicon",
+          "settings": {
+          }
+        },
+        "middleicon_BjYiKK": {
+          "type": "middleicon",
+          "settings": {
+            "middleicon": "shopify:\/\/shop_images\/3.png"
+          }
+        },
+        "middleicon_4t9HBL": {
+          "type": "middleicon",
+          "settings": {
+            "middleicon": "shopify:\/\/shop_images\/4.png"
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "middleicon_VTAQwK",
+        "middleicon_GC9EPK",
+        "middleicon_bRnpDi",
+        "middleicon_BjYiKK",
+        "middleicon_4t9HBL"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "medium",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
+        "top-title": "Clear Skin Confidence Starts Here with Our Specialized Acne Removal Skincare Solutions!",
+        "top-descritption": "<p>Ready to Ditch the Blemishes? <br\/>Let’s Get Fodivo Fabulous!<\/p>",
+        "home-top-link": "shopify:\/\/pages\/quiz",
+        "quiz-bkg": "shopify:\/\/shop_images\/Group_4675.png",
+        "home-top-quiz-descritption": "<p>Answer a few questions, and unlock personalized skincare recommendations tailored just for you. <\/p>",
+        "home-top-middle-image": "shopify:\/\/shop_images\/Untitled_design-6.png",
+        "home-top-middle-descritption": "<p>Our products are thoughtfully created to cater to the core requirements of acne-prone skin.<\/p>",
+        "home-top-middle-icons": false,
+        "right-col-collection1": "frontpage",
+        "right-col-collection2": "moisturizer",
+        "right-col-collection3": "spot-removal"
       }
     }
   },
   "order": [
-    "image_banner",
-    "featured_collection"
+    "home_top_aGkFn4"
   ]
 }
