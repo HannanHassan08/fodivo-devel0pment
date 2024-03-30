@@ -63,12 +63,14 @@
   background: #fff;
   color: #000;
   border: 1px solid;
-  padding: 15px;
+  padding: 10px 15px;
   display: block;
 }
 
 .home-top .home-top-middle-title {
   font-size: 3rem;
+  font-weight: 600;
+  line-height: 1em;
 }
 
 .home-top-row .home-top-middle-col {
@@ -87,21 +89,18 @@
   width: calc(25% - 10px);
 }
 .home-top .home-top-middle-icons {
-  background: #fff;
-  padding: 7px 20px;
-  width: calc(40% + 40px);
-  border-radius: 50px;
-  margin-top:200px;
+    background: #fff;
+    padding: 5px;
+    width: 43%;
+    border-radius: 50px;
+    margin-top: 175px;
 }
 .home-top .home-top-middle-iconslists {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  flex-wrap: wrap;
-  padding: 0;
-}
-
-.home-top .home-top-middle-iconslists li::marker {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px 10px;
+    margin: 0;
 }
 
 .home-top .home-top-middle-iconslists li {
