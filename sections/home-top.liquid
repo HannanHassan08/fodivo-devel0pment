@@ -48,6 +48,19 @@
                 
             </div>
             <div class="home-top-collection-col col">
+              
+                <div class="home-top-quiz-cont dsktp-none tab-show">
+                    <a  class="home-top-quiz-col-button fodivo-btn" href="/pages/quiz">
+                        Take Our Quiz
+                    </a>
+                    <div class="home-top-quiz-img">
+                    <img src="{{ section.settings.quiz-bkg | img_url : 'master' }}" alt="Quiz Image" />
+                    <div class="home-top-quiz-text">
+                      {{ section.settings.home-top-quiz-descritption }}
+                    </div>
+                </div>
+                </div>
+              
                 <div class="home-top-collection-cont">
                     <a class="fodivo-btn home-top-collection-btn" href="/collections">Our Collecion</a>
                     <div class="home-top-collections">
@@ -73,19 +86,7 @@
                         </ul>
                     </div>
                 </div>
-
-                <div class="home-top-quiz-cont dsktp-none tab-show">
-                    <a  class="home-top-quiz-col-button fodivo-btn" href="/pages/quiz">
-                        Take Our Quiz
-                    </a>
-                    <div class="home-top-quiz-img">
-                    <img src="{{ section.settings.quiz-bkg | img_url : 'master' }}" alt="Quiz Image" />
-                    <div class="home-top-quiz-text">
-                      {{ section.settings.home-top-quiz-descritption }}
-                    </div>
-                </div>
-                </div>
-              
+        
             </div>
         </div>
     </div>
