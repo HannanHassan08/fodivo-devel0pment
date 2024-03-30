@@ -217,4 +217,10 @@ footer.fadivo-footer .page-width {
   .tab-none{
     display:none;
   }
+  .home-top-row .home-top-middle-col{
+    width:70%;
+  }
+  .home-top .home-top-collection-col.col{
+    width:28%;
+  }
 }
