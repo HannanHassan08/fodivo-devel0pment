@@ -164,15 +164,15 @@
 
 .home-top .home-top-collection-single:nth-child(2) a {
   left: 30%;
-  rotate: 8deg;
+  rotate: 2deg;
   top: 34%;
   transform: translateX(-30%);
 }
 
 .home-top .home-top-collection-single:nth-child(3) a {
   left: 20%;
-  rotate: -9deg;
-  top: 58%;
+  rotate: -5deg;
+  top: 62%;
   transform: translateX(-20%);
 }
 
