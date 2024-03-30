@@ -193,7 +193,47 @@ footer.fadivo-footer .page-width {
   border-radius: 50px 50px 0 0;
   padding-top: 30px;
 }
+.footer-block--newsletter.scroll-trigger.animate--slide-in {
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
 
+.footer__content-bottom.scroll-trigger.animate--slide-in.scroll-trigger--offscreen {
+    display: none;
+}
+
+.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet.scroll-trigger.animate--slide-in {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.footer-block__details-content.list-unstyled {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-block.grid__item.footer-block--menu.scroll-trigger.animate--slide-in {
+    width: calc(100% - 20px);
+    max-width: 900px;
+    margin: auto;
+}
+
+ul.policies.list-unstyled .copyright__content, .copyright__content {
+    font-size: 9px;
+}
+
+ul.policies li:before {
+    content: "|";
+    padding: 0 5px;
+}
+
+ul.policies li:first-child::before {opacity: 0;padding: 0;}
+
+.footer-block.grid__item.scroll-trigger.animate--slide-in {
+    width: 100%;
+}
 /* Product Page */
 h2.products-steps-title, .product__title {
   background: linear-gradient(45deg, #a09c6d, #c7ac7b);
