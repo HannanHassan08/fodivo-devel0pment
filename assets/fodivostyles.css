@@ -259,3 +259,13 @@ footer.fadivo-footer .page-width {
         padding: 8px 16px;
   }
 }
+
+
+@media screen and (max-width: 767px){
+  .home-top .home-top-row{
+        flex-direction: column;
+  }
+  .home-top .home-top-row .col{
+    width: 100%;
+  }
+}
