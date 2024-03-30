@@ -102,49 +102,49 @@
         "collapsible_row_ginREc": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Is the Acne Removal & Moisturizing Cleanser suitable for dry skin?",
+            "icon": "none",
+            "row_content": "<p>While the cleanser effectively removes impurities, it is not specifically designed as a makeup remover. We recommend using a dedicated makeup remover before cleansing.<br\/><br\/><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_e4pAhB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I use the Acne Removal & Moisturizing Cleanser as a makeup remover?",
+            "icon": "none",
+            "row_content": "<p>While the cleanser effectively removes impurities, it is not specifically designed as a makeup remover. We recommend using a dedicated makeup remover before cleansing.<br\/><br\/><\/p>",
             "page": ""
           }
         },
         "collapsible_row_Wcx4FT": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Is the Acne Removal & Moisturizing Cleanser cruelty-free?",
+            "icon": "none",
+            "row_content": "<p>Can I use the Acne Removal & Moisturizing Cleanser in <br\/>combination with other acne treatments?<\/p>",
             "page": ""
           }
         },
         "collapsible_row_mjhW6P": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_pigAmJ": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Is the Acne Removal & Moisturizing Cleanser cruelty-free?",
+            "icon": "none",
+            "row_content": "<p>Can I use the Acne Removal & Moisturizing Cleanser in <br\/>combination with other acne treatments?<\/p>",
             "page": ""
           }
         }
       },
       "block_order": [
         "collapsible_row_ginREc",
+        "collapsible_row_e4pAhB",
         "collapsible_row_Wcx4FT",
-        "collapsible_row_mjhW6P",
-        "collapsible_row_pigAmJ"
+        "collapsible_row_mjhW6P"
       ],
       "settings": {
         "caption": "",
-        "heading": "Collapsible content",
+        "heading": "CLEANSER FREQUENTLY ASKED QUESTIONS",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
