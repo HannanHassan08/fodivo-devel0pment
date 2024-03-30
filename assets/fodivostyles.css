@@ -268,20 +268,28 @@ footer.fadivo-footer .page-width {
   }
   .home-top .home-top-row .col {
     width: 100%;
-    margin-bottom:30px;
+    margin-bottom: 30px;
   }
   .home-top .home-top-middle-icons {
     margin-top: 70px;
   }
-.home-top-quiz-cont, .home-top .home-top-collection-cont {
+  .home-top-quiz-cont,
+  .home-top .home-top-collection-cont {
     max-width: 300px;
     margin: auto;
-}
+  }
+  .home-top .home-top-middle-iconslists li img {
+    max-width: 30px;
+  }
+  .home-top .home-top-middle-icons {
+    width: 165px;
+  }
+
   /* Font Sizes */
-.home-top .home-top-content .home-top-title {
+  .home-top .home-top-content .home-top-title {
     font-size: 2.3rem;
-}
-  
+  }
+
   .home-top .home-top-middle-title {
     font-size: 2rem;
   }
