@@ -280,6 +280,7 @@ footer.fadivo-footer .page-width {
   .home-top .home-top-collection-cont {
     max-width: 300px;
     margin: auto;
+    margin-top:30px;
   }
   .home-top .home-top-middle-iconslists li img {
     max-width: 30px;
