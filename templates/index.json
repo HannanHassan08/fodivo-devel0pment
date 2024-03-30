@@ -75,6 +75,7 @@
         "featured_collection_3xRnBk",
         "featured_collection_4URP4k"
       ],
+      "disabled": true,
       "settings": {
         "title": "Collections",
         "heading_size": "h1",
