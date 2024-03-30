@@ -7,7 +7,7 @@
 }
 
 .home-top .home-top-content .home-top-title {
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: bold;
 }
 
@@ -44,6 +44,7 @@
   bottom: 0;
   width: 85%;
   margin-left: 10%;
+  font-size: 14px;
 }
 
 .home-top img {
@@ -181,6 +182,8 @@ footer.fadivo-footer .page-width {
     border-radius: 50px 50px 0 0;
     padding-top: 30px;
 }
+
+/* Media Queries */
 
 @media screen and (min-width: 991px) {
   .header--middle-left .list-menu--inline {
