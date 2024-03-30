@@ -198,6 +198,17 @@ footer.fadivo-footer .page-width {
     width: 100%;
   }
 }
+
+@media screen and (min-width:768px){
+  .collapsible-content__wrapper .grid__item.collapsible-content__grid-item {
+    max-width: 35%;
+}
+
+.collapsible-content__heading {
+    max-width: 500px;
+}
+}
+
 @media screen and (max-width: 1024px) {
   .home-top .home-top-middle-icons {
     margin-top: 150px;
