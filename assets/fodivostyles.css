@@ -190,7 +190,7 @@ body.gradient,
 
 /* Footer */
 footer.fadivo-footer .page-width {
-  border-radius: 50px 50px 0 0;
+  border-radius: 100px 100px 0 0;
   padding-top: 30px;
 }
 .footer-block--newsletter.scroll-trigger.animate--slide-in {
@@ -219,7 +219,9 @@ ul.footer-block__details-content.list-unstyled {
     max-width: 900px;
     margin: auto;
 }
-
+.footer-terms-policies, .footer-socials-f, .footer-copyright-f {
+    width: 33%;
+}
 ul.policies.list-unstyled .copyright__content, .copyright__content {
     font-size: 9px;
 }
@@ -234,6 +236,12 @@ ul.policies li:first-child::before {opacity: 0;padding: 0;}
 .footer-block.grid__item.scroll-trigger.animate--slide-in {
     width: 100%;
 }
+@media screen and (max-width: 1024px){
+  .footer-socials-f a.link.list-social__link {
+    padding: 5px;
+}
+}
+
 /* Product Page */
 h2.products-steps-title, .product__title {
   background: linear-gradient(45deg, #a09c6d, #c7ac7b);
