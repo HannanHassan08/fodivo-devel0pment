@@ -1,3 +1,9 @@
+/* Global */
+
+.dsktp-none {
+  display: none;
+}
+
 /* Home Top */
 
 .home-top .home-top-content {
@@ -11,7 +17,7 @@
   font-weight: bold;
 }
 
-.home-top .home-top-row{
+.home-top .home-top-row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -59,7 +65,7 @@
 .home-top .home-top-middle-btn,
 .home-top .home-top-collection-btn {
   font-size: 12px;
-  font-weight:bold;
+  font-weight: bold;
   background: #fff;
   color: #000;
   border: 1px solid;
@@ -89,18 +95,18 @@
   width: calc(25% - 10px);
 }
 .home-top .home-top-middle-icons {
-    background: #fff;
-    padding: 5px;
-    width: 210px;
-    border-radius: 50px;
-    margin-top: 175px;
+  background: #fff;
+  padding: 5px;
+  width: 210px;
+  border-radius: 50px;
+  margin-top: 175px;
 }
 .home-top .home-top-middle-iconslists {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 5px 10px;
-    margin: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 5px 10px;
+  margin: 0;
 }
 
 .home-top .home-top-middle-iconslists li {
@@ -108,12 +114,12 @@
   font-size: 0rem;
 }
 .home-top .home-top-middle-iconslists li img {
-    max-width: 40px;
+  max-width: 40px;
 }
 .home-top .home-top-collection-cont {
   background: #737441;
   padding: 20px;
-  border-radius:20px;
+  border-radius: 20px;
   position: relative;
 }
 
@@ -142,7 +148,7 @@
   transition: 0.2s;
 }
 .home-top .home-top-collection-single a:hover {
-    opacity: 1;
+  opacity: 1;
 }
 .home-top .home-top-collection-single:first-child a {
   left: 5%;
@@ -153,7 +159,7 @@
 .home-top .home-top-collection-single a img {
   width: 30px;
   height: 30px;
-  margin-left:10px;
+  margin-left: 10px;
 }
 
 .home-top .home-top-collections {
@@ -176,12 +182,10 @@
   transform: translateX(-20%);
 }
 
-
-
 /* Footer */
 footer.fadivo-footer .page-width {
-    border-radius: 50px 50px 0 0;
-    padding-top: 30px;
+  border-radius: 50px 50px 0 0;
+  padding-top: 30px;
 }
 
 /* Media Queries */
@@ -192,19 +196,25 @@ footer.fadivo-footer .page-width {
     width: 100%;
   }
 }
-@media screen and (max-width:1024px){
-
-  .home-top .home-top-middle-icons{
-    margin-top:150px;
+@media screen and (max-width: 1024px) {
+  .home-top .home-top-middle-icons {
+    margin-top: 150px;
   }
 
-
-   /* Font Sizes */
-  .home-top .home-top-quiz-text{
-    line-height:21px;
+  /* Font Sizes */
+  .home-top .home-top-quiz-text {
+    line-height: 21px;
   }
-.home-top .home-top-collection-single a{
-  font-size:16px;
+  .home-top .home-top-collection-single a {
+    font-size: 16px;
+  }
 }
-  
+
+@media screen and (max-width: 990px){
+  .tab-show{
+    display:block;
+  }
+  .tab-none{
+    display:none;
+  }
 }

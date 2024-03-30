@@ -17,7 +17,7 @@
         </div>
         <div class="home-top-row row">
             <div class="home-top-quiz-col col">
-                <div class="home-top-quiz-cont">
+                <div class="home-top-quiz-cont tab-none">
                     <a  class="home-top-quiz-col-button fodivo-btn" href="/pages/quiz">
                         Take Our Quiz
                     </a>
@@ -73,6 +73,19 @@
                         </ul>
                     </div>
                 </div>
+
+                <div class="home-top-quiz-cont dsktp-none tab-show">
+                    <a  class="home-top-quiz-col-button fodivo-btn" href="/pages/quiz">
+                        Take Our Quiz
+                    </a>
+                    <div class="home-top-quiz-img">
+                    <img src="{{ section.settings.quiz-bkg | img_url : 'master' }}" alt="Quiz Image" />
+                    <div class="home-top-quiz-text">
+                      {{ section.settings.home-top-quiz-descritption }}
+                    </div>
+                </div>
+                </div>
+              
             </div>
         </div>
     </div>
