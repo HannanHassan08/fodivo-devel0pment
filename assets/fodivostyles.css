@@ -270,6 +270,9 @@ footer.fadivo-footer .page-width {
     width: 100%;
     margin-bottom: 30px;
   }
+  .home-top-row .home-top-middle-col{
+    padding-bottom:10px;
+  }
   .home-top .home-top-middle-icons {
     margin-top: 70px;
   }
