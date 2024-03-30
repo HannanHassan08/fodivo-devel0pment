@@ -3,8 +3,8 @@
 .dsktp-none {
   display: none;
 }
-body{
-  background: #737441;
+html, body.gradient, .header-wrapper {
+    background: #d1d0c2;
 }
 /* Home Top */
 
