@@ -273,8 +273,15 @@ footer.fadivo-footer .page-width {
   .home-top .home-top-middle-icons {
     margin-top: 70px;
   }
-
+.home-top-quiz-cont, .home-top .home-top-collection-cont {
+    max-width: 300px;
+    margin: auto;
+}
   /* Font Sizes */
+.home-top .home-top-content .home-top-title {
+    font-size: 2.3rem;
+}
+  
   .home-top .home-top-middle-title {
     font-size: 2rem;
   }
