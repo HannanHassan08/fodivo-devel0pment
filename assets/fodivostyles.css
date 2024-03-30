@@ -260,7 +260,7 @@ ul.policies li:first-child::before {
   .footer-block__details-content,
   .footer-block--newsletter,
   .footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet.scroll-trigger.animate--slide-in {
-    margin: 0;
+    margin: 0 !important;
   }
 
   .footer-terms-policies,
