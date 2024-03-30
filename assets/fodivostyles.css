@@ -261,6 +261,15 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded.
 .shopify-payment-button__button--unbranded:hover:after {
   --border-offset: 0 !important;
 }
+.product__title {
+    display: flex;
+    background: linear-gradient(45deg,#a09c6d,#c7ac7b);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    width: fit-content;
+    background-position: right;
+    font-weight: 700;
+}
 
 /* Media Queries */
 
