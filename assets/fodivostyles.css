@@ -153,7 +153,7 @@
 .home-top .home-top-collection-single:first-child a {
   left: 5%;
   rotate: 343deg;
-  top: 0%;
+  top: 04%;
   transform: translate(-10%);
 }
 .home-top .home-top-collection-single a img {
@@ -227,9 +227,7 @@ footer.fadivo-footer .page-width {
         display: flex;
     flex-direction: column;
   }
-  .home-top .home-top-quiz-cont{
-        padding-top: 50px;
-  }
+
   .home-top .home-top-collections{
     height:180px;
   }
@@ -239,6 +237,12 @@ footer.fadivo-footer .page-width {
 .home-top .home-top-collection-cont {
   padding: 15px 20px;
 }
+.home-top .home-top-quiz-text{
+  bottom:20px;
+}
+
+
+  
   /* Font Sizes */
   .home-top .home-top-collection-single a{
     font-size: 13px;
