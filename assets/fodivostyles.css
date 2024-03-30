@@ -107,7 +107,9 @@
   list-style-type: none;
   font-size: 0rem;
 }
-
+.home-top .home-top-middle-iconslists li img {
+    max-width: 40px;
+}
 .home-top .home-top-collection-cont {
   background: #737441;
   padding: 20px;
