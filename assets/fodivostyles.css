@@ -210,62 +210,71 @@ footer.fadivo-footer .page-width {
   }
 }
 
-@media screen and (max-width: 990px){
-  .tab-show{
-    display:block;
+@media screen and (max-width: 990px) {
+  .tab-show {
+    display: block;
   }
-  .tab-none{
-    display:none;
+  .tab-none {
+    display: none;
   }
-  .home-top-row .home-top-middle-col{
-    width:60%;
+  .home-top-row .home-top-middle-col {
+    width: 60%;
   }
-  .home-top .home-top-collection-col.col{
-    width:38%;
+  .home-top .home-top-collection-col.col {
+    width: 38%;
   }
-  .home-top .home-top-middle-col-cont{
-        display: flex;
-        flex-direction: column;
-    height:100%;
+  .home-top .home-top-middle-col-cont {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
-.home-top .home-top-middle-icons{
-  margin-top:auto;
-}
-  .home-top .home-top-collections{
-    height:180px;
+  .home-top .home-top-middle-title {
+    margin-top: 0;
   }
-.home-top .home-top-collection-single a{
-  padding: 3px 10px;
-}
-.home-top .home-top-collection-cont {
-  padding: 15px 20px;
-}
-.home-top .home-top-quiz-text{
-  bottom:20px;
-}
+  .home-top .home-top-middle-icons {
+    margin-top: auto;
+  }
+  .home-top .home-top-collections {
+    height: 180px;
+  }
+  .home-top .home-top-collection-single a {
+    padding: 3px 10px;
+  }
+  .home-top .home-top-collection-cont {
+    padding: 15px 20px;
+  }
+  .home-top .home-top-quiz-text {
+    bottom: 20px;
+  }
 
-
-  
   /* Font Sizes */
-  .home-top .home-top-collection-single a{
+  .home-top .home-top-collection-single a {
     font-size: 13px;
   }
-  .home-top .home-top-middle-btn, .home-top .home-top-collection-btn{
+  .home-top .home-top-middle-btn,
+  .home-top .home-top-collection-btn {
     font-size: 9px;
     padding: 6px 15px;
   }
-  .fodivo-btn{
-        font-size: 14px;
-        padding: 8px 16px;
+  .fodivo-btn {
+    font-size: 14px;
+    padding: 8px 16px;
   }
 }
 
-
-@media screen and (max-width: 767px){
-  .home-top .home-top-row{
-        flex-direction: column;
+@media screen and (max-width: 768px) {
+  .home-top .home-top-row {
+    flex-direction: column;
   }
-  .home-top .home-top-row .col{
+  .home-top .home-top-row .col {
     width: 100%;
+  }
+  .home-top .home-top-middle-icons {
+    margin-top: 70px;
+  }
+
+  /* Font Sizes */
+  .home-top .home-top-middle-title {
+    font-size: 2rem;
   }
 }
