@@ -238,7 +238,7 @@
               {% # theme-check-enable %}
             </div>
           {%- endif -%}
-<div>
+<div class="footer-terms-policies">
       <div class="footer__copyright caption">
         {%- if section.settings.show_policy -%}
           <ul class="policies list-unstyled">
@@ -255,10 +255,12 @@
         {%- endif -%}
       </div>
 </div>
+<div class="footer-socials-f">
           {%- if section.settings.show_social and has_social_icons -%}
             {%- render 'social-icons', class: 'footer__list-social' -%}
           {%- endif -%}
-<div>
+</div>          
+<div class="footer-copyright-f">
 	<div class="footer__copyright caption">
         <small class="copyright__content"
           > All Rights Reserved &copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
