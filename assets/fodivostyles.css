@@ -193,7 +193,18 @@ footer.fadivo-footer .page-width {
   }
 }
 @media screen and (max-width:1024px){
+
   .home-top .home-top-middle-icons{
     margin-top:150px;
   }
+
+
+   /* Font Sizes */
+  .home-top .home-top-quiz-text{
+    line-height:21px;
+  }
+.home-top .home-top-collection-single a{
+  font-size:16px;
+}
+  
 }
