@@ -132,7 +132,7 @@
 }
 
 .home-top .home-top-collection-single a {
-  padding: 8px;
+  padding: 4px 8px;
   border-radius: 50px;
   background: #fff;
   opacity: 0.4;
@@ -151,8 +151,8 @@
   transform: translate(-10%);
 }
 .home-top .home-top-collection-single a img {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   margin-left:10px;
 }
 
