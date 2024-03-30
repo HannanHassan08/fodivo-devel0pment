@@ -140,15 +140,15 @@
 .home-top .home-top-collection-single a {
   padding: 4px 8px;
   border-radius: 50px;
-  background: #fff;
-  opacity: 0.4;
+  rgba(255, 255, 255, 0.4)
+  /* opacity: 0.4; */
   position: absolute;
   /* width: 90%; */
   font-size: 20px;
   transition: 0.2s;
 }
 .home-top .home-top-collection-single a:hover {
-  opacity: 1;
+ rgba(255, 255, 255, 1);
 }
 .home-top .home-top-collection-single:first-child a {
   left: 5%;
