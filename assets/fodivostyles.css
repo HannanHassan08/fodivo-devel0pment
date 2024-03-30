@@ -91,7 +91,7 @@
 .home-top .home-top-middle-icons {
     background: #fff;
     padding: 5px;
-    width: 43%;
+    width: 210px;
     border-radius: 50px;
     margin-top: 175px;
 }
@@ -190,5 +190,10 @@ footer.fadivo-footer .page-width {
   .header--middle-left .list-menu--inline {
     justify-content: space-evenly;
     width: 100%;
+  }
+}
+@media screen and (max-width:1024px){
+  .home-top .home-top-middle-icons{
+    margin-top:150px;
   }
 }
