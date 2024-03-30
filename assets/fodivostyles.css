@@ -223,4 +223,8 @@ footer.fadivo-footer .page-width {
   .home-top .home-top-collection-col.col{
     width:28%;
   }
+  .home-top .home-top-middle-col-cont{
+        display: flex;
+    flex-direction: column;
+  }
 }
