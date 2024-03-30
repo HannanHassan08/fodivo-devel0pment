@@ -3,7 +3,9 @@
 .dsktp-none {
   display: none;
 }
-
+body{
+  background: #737441;
+}
 /* Home Top */
 
 .home-top .home-top-content {
