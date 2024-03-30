@@ -195,7 +195,7 @@ footer.fadivo-footer .page-width {
 }
 
 /* Product Page */
-h2.products-steps-title {
+h2.products-steps-title, .product__title {
   background: linear-gradient(45deg, #a09c6d, #c7ac7b);
   background-repeat: no-repeat;
   background-size: 60%;
@@ -203,7 +203,10 @@ h2.products-steps-title {
   background-position: right;
   font-weight: bold;
 }
-
+.product__title {
+    background-size: 60%;
+    text-transform: uppercase;
+}
 .steps-row {
   display: flex;
   flex-wrap: wrap;
@@ -261,15 +264,7 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded.
 .shopify-payment-button__button--unbranded:hover:after {
   --border-offset: 0 !important;
 }
-.product__title {
-    display: flex;
-    background: linear-gradient(45deg,#a09c6d,#c7ac7b);
-    background-repeat: no-repeat;
-    background-size: 60%;
-    width: fit-content;
-    background-position: right;
-    font-weight: 700;
-}
+
 
 /* Media Queries */
 
