@@ -190,6 +190,42 @@ footer.fadivo-footer .page-width {
   padding-top: 30px;
 }
 
+
+
+
+/* Product Page */
+h2.products-steps-title {
+    background: linear-gradient(45deg, #A09C6D, #C7AC7B);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    width: fit-content;
+    background-position: right;
+    font-weight: bold;
+}
+
+.steps-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-top: 1px solid #707070;
+    padding: 8px 0px;
+    color: #000;
+}
+
+span.step-count {
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+span.step-content {
+    width: calc(100% - 75px);
+}
+
+.steps-row:last-child {
+    border-bottom: 1px solid #707070;
+}
+
+
 /* Media Queries */
 
 @media screen and (min-width: 991px) {
