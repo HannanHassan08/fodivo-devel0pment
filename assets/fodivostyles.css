@@ -1,5 +1,7 @@
 /* Global */
-
+.dspl-none{
+  display:none;
+}
 .dsktp-none {
   display: none;
 }
@@ -267,6 +269,14 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded.
     justify-content: space-evenly;
     width: 100%;
   }
+  .product .product__media-list li:first-child {
+    max-width: 40% !important;
+    position: relative;
+}
+
+.product .product__media-list li:nth-child(2) {
+    max-width: 60% !important;
+}
 }
 
 @media screen and (min-width: 768px) {
