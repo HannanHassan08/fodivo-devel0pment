@@ -226,6 +226,46 @@ span.step-content {
 }
 
 
+.product-form__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+}
+
+.product-form__buttons buttons {
+    width: 50%;
+}
+
+.product-form__buttons .product-form__submit, .shopify-payment-button {
+    max-width: 50%;
+    display: block;
+    width: 100%;
+}
+
+button.shopify-payment-button__button.shopify-payment-button__button--unbranded.BUz42FHpSPncCPJ4Pr_f.jjzYeefyWpPZLH9pIgyw.RWJ0IfBjxIhflh4AIrUw {}
+
+.product-form__buttons button {
+    border-radius: 50px !important;
+    outline: 0;
+    border: 1px solid;
+    --border-offset: 0;
+    padding: 10px;
+}
+
+.button:not([disabled]):hover:after, .shopify-challenge__button:hover:after, .customer button:hover:after, .shopify-payment-button__button--unbranded:hover:after {
+    --border-offset: 0 !important;
+}
+@media screen and (max-width: 990px){
+
+    .product-form__buttons button {
+        font-size: 12px;
+        padding: 4px;
+        line-height: 1em;
+        display: block;
+        width: 100%;
+}
+}
 /* Media Queries */
 
 @media screen and (min-width: 991px) {
