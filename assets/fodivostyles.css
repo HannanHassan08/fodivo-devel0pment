@@ -276,11 +276,11 @@ h2.products-steps-title,
   background-repeat: no-repeat;
   background-size: 60%;
   width: fit-content;
-  background-position: right;
+  background-position: bottom right;
   font-weight: bold;
 }
 .product__title {
-  background-size: 60%;
+  background-size: 45% 4rem;
   text-transform: uppercase;
 }
 .steps-row {
