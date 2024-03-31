@@ -677,7 +677,13 @@
             {% render 'icon-arrow' %}
           </a>
 
-<div>{{ product.tags }}</div>                            
+<div class="products-tags-tags">
+<ul class="product-tags">
+  {% for tag in product.tags %}
+  <li><a href="/collections/all/{{ tag | handleize }}">{{ tag }}</a></li>
+  {% endfor %}
+</ul>  
+</div>                            
         </product-info>
       </div>
       {%- if section.settings.media_position == 'right' -%}
