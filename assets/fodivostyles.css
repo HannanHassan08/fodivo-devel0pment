@@ -205,11 +205,12 @@ footer.fadivo-footer .page-width {
   display: none;
 }
 
-.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet.scroll-trigger.animate--slide-in {
+.fadivo-footer .footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet.scroll-trigger.animate--slide-in {
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
+  row-gap: 2rem;
 }
 
 ul.footer-block__details-content.list-unstyled {
