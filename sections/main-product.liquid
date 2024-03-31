@@ -87,7 +87,7 @@
                     </div>
                     {% if product.type !=blank %}
                     <h3 class="prodcut-type-custom">{% for product in collections.all.products %}
-{{ product.collections[0] }}
+{{ product.collections[0].title }}
 {% endfor %}</h3>
                     {% endif %}
                   </div>
