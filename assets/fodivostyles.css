@@ -289,7 +289,7 @@ footer.fadivo-footer .page-width {
 
 .fodivo-prod-single.product .product__info-wrapper.grid__item,
 .fodivo-feature-image {
-  max-width: 30%;
+  max-width: calc(30% - 20px);
   padding: 0;
 }
 
