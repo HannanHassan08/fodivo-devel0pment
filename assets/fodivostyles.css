@@ -409,7 +409,7 @@ span.step-content {
     row-gap: 20px;
     column-gap: 5px;
     padding: 0;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .products-tags-tags ul.product-tags li a {
