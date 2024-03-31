@@ -275,8 +275,10 @@ ul.policies li:first-child::before {
 
 /* Product Page */
 
-.fodivo-prod-single.product {
+.fodivo-prod-single.product.grid {
     position: relative;
+  column-gap: 20px;
+    row-gap: 30px;
 }
 
 .fodivo-prod-single.product .grid__item.product__media-wrapper {
