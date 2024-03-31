@@ -97,8 +97,14 @@
 
     
     <div class="fodivo-prod-single product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
-      <div class="fodivo-feature-image">
-        {{ product | image_url: width: 200 | image_tag: class: 'custom-class', loading: 'lazy' }}
+      <div class="fodivo-feature-image mbl-hide">
+        <div class="fodivo-product-feature-img">
+          {{ product | image_url: width: 200 | image_tag: class: 'custom-class', loading: 'lazy' }}
+        </div>
+        <div class="fodivo-product-quiz">
+          <h4 class="not-sure">Not Sure if this is right for you?</h4>
+          <a href="/pages/quiz">TAKE OUR QUIZ</a>
+        </div>
       </div>
       <div class="grid__item product__media-wrapper{% if section.settings.media_position == 'right' %} medium-hide large-up-hide{% endif %}">
         {% render 'product-media-gallery', variant_images: variant_images %}
