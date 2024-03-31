@@ -99,7 +99,7 @@
     <div class="fodivo-prod-single product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
       <div class="fodivo-feature-image mbl-hide">
         <div class="fodivo-product-feature-img">
-          {{ product | image_url: width: 200 | image_tag: class: 'custom-class', loading: 'lazy' }}
+          {{ product | image_url: 'master' | image_tag: class: 'fodivo-custom-class', loading: 'lazy' }}
         </div>
         <div class="fodivo-product-quiz">
           <h4 class="not-sure">Not Sure if this is right for you?</h4>
@@ -686,14 +686,19 @@
             {% render 'icon-arrow' %}
           </a>
 
+    
 <div class="products-tags-tags">
 <ul class="product-tags">
   {% for tag in product.tags %}
   <li><a href="/collections/all/{{ tag | handleize }}">{{ tag }}</a></li>
   {% endfor %}
 </ul>  
+</div>   
+<div class="fodivo-product-quiz mbl-show">
+  <h4 class="not-sure">Not Sure if this is right for you?</h4>
+  <a class="fodivo-btn" href="/pages/quiz">TAKE OUR QUIZ</a>
 </div>                            
-        </product-info>
+</product-info>
       </div>
       {%- if section.settings.media_position == 'right' -%}
         {% comment %} Duplicate gallery to display after product content on tablet/desktop breakpoint {% endcomment %}
