@@ -282,11 +282,11 @@ ul.policies li:first-child::before {
 }
 
 .fodivo-prod-single.product .grid__item.product__media-wrapper {
-    max-width: 50%;
+    max-width: 44%;
 }
 
 .fodivo-prod-single.product .product__info-wrapper.grid__item, .fodivo-feature-image {
-    max-width: 25%;
+        max-width: 30%;
     padding: 0;
 }
 
