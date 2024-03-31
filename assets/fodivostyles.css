@@ -5,6 +5,7 @@
 .dsktp-none {
   display: none;
 }
+
 html,
 body.gradient,
 .header-wrapper {
@@ -467,6 +468,11 @@ span.step-content {
 }
 
 @media screen and (min-width: 768px) {
+  /* Global */
+  .mbl-show{
+    display:none;
+  }
+  
   .collapsible-content__wrapper .grid__item.collapsible-content__grid-item {
     max-width: 35%;
   }
