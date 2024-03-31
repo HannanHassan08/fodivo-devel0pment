@@ -394,7 +394,7 @@ span.step-content {
   --border-offset: 0 !important;
 }
 .products-tags-tags ul.product-tags li {
-    padding: 8px 18px;
+    padding: 5px 16px;
     border: 1px solid;
     list-style: none;
     position: relative;
@@ -407,14 +407,15 @@ span.step-content {
     display: flex;
     flex-wrap: wrap;
     row-gap: 20px;
-    column-gap: 10px;
+    column-gap: 5px;
     padding: 0;
+    justify-content: space-between;
 }
 
 .products-tags-tags ul.product-tags li a {
     color: #000;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .products-tags-tags ul.product-tags li:before {
