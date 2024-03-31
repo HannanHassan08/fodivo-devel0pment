@@ -448,9 +448,30 @@ span.step-content {
 }
 
 .products-tags-tags ul.product-tags li:last-child {
-  rotate: -4deg;
+  rotate: 5deg;
+}
+.fodivo-product-quiz {
+    border-radius: 20px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    word-wrap: break-word;
+    background: linear-gradient(180deg, #a09b6c, #896320);
+    margin-top: 30px;
+    position: relative;
 }
 
+h4.not-sure {
+    font-size: 2rem;
+    color: #fff;
+    line-height: 2rem;
+    margin: 0 0 20px;
+}
+
+.fodivo-product-quiz a {
+    font-size: 12px;
+}
 /* Product Ends Here */
 
 /* Media Queries */
