@@ -81,9 +81,15 @@
                 </div>
               {%- when 'description' -%}
                 {%- if product.description != blank -%}
-                  <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
-                    {{ product.description }}<h3 class="custom-product-type-data">{{ product.type }}</h3>
+                  <div class="prod-description-type">
+                    <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
+                      {{ product.description }}
+                    </div>
+                    {% if product.type !=blank %}
+                    <h3 class="prodcut-type-custom">{{ product.type }}</h3>
+                    {% endif %}
                   </div>
+                  
                 {%- endif -%}       
               
               {%- endcase -%}
